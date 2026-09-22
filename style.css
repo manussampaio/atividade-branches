@@ -15,3 +15,13 @@
     height: 30px;
     background-color: lightgreen;
 }
+
+#message{
+    color: green;
+    font-weight: bold;
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+}
