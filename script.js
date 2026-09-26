@@ -14,5 +14,7 @@ function registerUser() {
         document.getElementById('users').innerHTML = `${userName} | ${userEmail}`;
         document.getElementById('error').innerHTML = '';
 
+
+
     }
 }
