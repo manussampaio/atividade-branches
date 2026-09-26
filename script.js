@@ -6,6 +6,7 @@ function registerUser() {
     const userEmail = email.value.trim();
 
     if (userName === '' || userEmail === '') {
+        document.getElementById('message').innerHTML = '';
         document.getElementById('error').innerHTML = 'Error: Please fill in both name and email fields!';
         return;
     } else {
